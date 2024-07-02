@@ -4,7 +4,8 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import fpoly.namth.luyen_code_screens.screens.ShoesScreen
+import fpoly.namth.luyen_code_screens.screens.ChattingScreen
+import fpoly.namth.luyen_code_screens.screens.NFTMobileScreen
 import fpoly.namth.luyen_code_screens.ui.theme.Luyen_code_screensTheme
 
 class MainActivity : ComponentActivity() {
@@ -13,7 +14,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Luyen_code_screensTheme {
-                ShoesScreen()
+                NFTMobileScreen()
             }
         }
     }

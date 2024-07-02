@@ -89,7 +89,7 @@ private fun ShoesRow(
 ) {
     LazyColumn(
         modifier = modifier,
-        contentPadding = PaddingValues(16.dp)
+        contentPadding = PaddingValues(start = 16.dp)
     ) {
         item {
             headerSection?.invoke()
