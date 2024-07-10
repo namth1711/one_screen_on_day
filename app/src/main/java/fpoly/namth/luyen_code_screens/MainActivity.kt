@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import fpoly.namth.luyen_code_screens.screens.ChattingScreen
 import fpoly.namth.luyen_code_screens.screens.ElectricCarScreen
+import fpoly.namth.luyen_code_screens.screens.InstagramHomeScreen
 import fpoly.namth.luyen_code_screens.screens.NFTMobileScreen
 import fpoly.namth.luyen_code_screens.screens.TeslaScreen
 import fpoly.namth.luyen_code_screens.screens.TwitterProfileScreen
@@ -17,7 +18,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Luyen_code_screensTheme {
-                HealthUIScreen()
+                InstagramHomeScreen()
             }
         }
     }
