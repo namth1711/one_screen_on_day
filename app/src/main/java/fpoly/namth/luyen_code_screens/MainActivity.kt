@@ -4,13 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import fpoly.namth.luyen_code_screens.screens.ChattingScreen
-import fpoly.namth.luyen_code_screens.screens.ElectricCarScreen
-import fpoly.namth.luyen_code_screens.screens.InstagramHomeScreen
-import fpoly.namth.luyen_code_screens.screens.InstagramProfileScreen
-import fpoly.namth.luyen_code_screens.screens.NFTMobileScreen
-import fpoly.namth.luyen_code_screens.screens.TeslaScreen
-import fpoly.namth.luyen_code_screens.screens.TwitterProfileScreen
+import fpoly.namth.luyen_code_screens.screens.ScoreboardScreen
 import fpoly.namth.luyen_code_screens.ui.theme.Luyen_code_screensTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,7 +13,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Luyen_code_screensTheme {
-                InstagramProfileScreen()
+                ScoreboardScreen()
             }
         }
     }

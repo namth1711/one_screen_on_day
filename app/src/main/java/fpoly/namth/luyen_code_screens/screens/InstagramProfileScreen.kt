@@ -90,6 +90,7 @@ private fun InstagramProfileRow(
 ) {
     Column(
         modifier = modifier.fillMaxSize()
+            .padding(top = 16.dp)
     ) {
         topBarSection?.invoke()
         profileSection?.invoke()
